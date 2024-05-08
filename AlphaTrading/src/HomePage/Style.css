@@ -1,0 +1,24 @@
+/* Keyframes definition */
+@keyframes bounceInOut {
+  0%, 100% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+
+
+  
+  /* Component styles */
+  .animate-bounceInOut {
+    animation: bounceInOut 1.5s infinite;
+  }
+  
+  
+  
+  
