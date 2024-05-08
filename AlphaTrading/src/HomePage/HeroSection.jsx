@@ -9,7 +9,7 @@ export const HeroSection = ({ handlePriceScroll }) => {
   };
 
   return (
-    <div className='w-full h-[80%] relative flex justify-between bg-black pt-32 pb-10 bg-[url("./src/assets/Image5.avif")] bg-contain bg-no-repeat bg-center '>
+    <div className='w-full h-[80%] relative flex justify-between bg-[#000] pt-32 pb-10 bg-[url("./src/assets/Image5.avif")] bg-contain bg-no-repeat bg-center '>
 
       <div className='md:h-full w-[42%] flex justify-center items-center md:text-5xl md:pl-20 md:font-extrabold text-white flex-col gap-4 ms:font-bold ms:text-2xl'>
         <h1 className={isVisible ? 'fade-in' : 'fade-out'}>BECOME A PRO TRADER WITH <span className='animate-bounceInOut'>ALPHATRADING ACADEMY</span></h1>
