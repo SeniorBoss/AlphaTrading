@@ -2,3 +2,59 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+.ContactUs{
+    background-image: url(./assets/Contact2.jpg);
+}
+
+.TradingImage{
+    background-image: url(./assets/Image1.png);
+}
+
+.TradingImage2{
+    background-image: url(./assets/imac.png);
+}
+
+.TradingImage3{
+    background-image: url(./assets/Imagefour.png);
+}
+
+.TradingImage4{
+    background-image: url(./assets/imac.png);
+}
+
+.HeroImage{
+    background-image: url(./assets/Image5.avif);
+}
+
+.JoinNow{
+    background-image: url(./assets/Image5.avif);
+}
+
+.Offers1{
+    background-image: url(./assets//Mentor.jpg);
+}
+
+.Offers2{
+    background-image: url(./assets/Signals.jpg);
+}
+
+.Offers3{
+    background-image: url(./assets/Inspiring.jpg);
+}
+
+.Price1{
+    background-image: url(./assets/Zoom.jpg);
+}
+
+.price2{
+    background-image: url(./assets/Zoom2.jpg);
+}
+
+.price3{
+    background-image: url(./assets/Zoom3.jpg);
+}
+
+.HeroBackground{
+    background-image: url(./assets/Image5.avif);
+}

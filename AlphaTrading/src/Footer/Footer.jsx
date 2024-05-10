@@ -5,6 +5,7 @@ import { FaXTwitter } from "react-icons/fa6";
 import { MdOutlineMailOutline } from "react-icons/md";
 import { MdCall } from "react-icons/md";
 import { useNavigate } from 'react-router-dom';
+import Logo3 from '../assets/Logo3.png'
 export const Footer = () => {
     const nav = useNavigate()
   return (
@@ -12,7 +13,7 @@ export const Footer = () => {
         <div className='md:w-[86%] h-[90%] md:flex md:gap-32 ms:gap-10 items-center'>
             <div className='md:w-[30%] md:h-full ms:w-[100%] ms:h-[45%] flex flex-col  ms:items-center md:items-start ms:gap-5'>
             <div className='md:w-40 md:h-full ms:w-[40%]  object-contain cursor-pointer'>
-             <img src="./src/assets/Logo3.png" alt="Description" className="w-full h-full shadow-lg object-contain" />
+             <img src={Logo3} alt="Description" className="w-full h-full shadow-lg object-contain" />
             </div>
             <p className='text-white text-sm ms:text-center md:text-start md:w-[100%] ms:w-[90%]'>We empower traders by helping them pinpoint their strengths and weaknesses. Through personalized guidance, we assist in crafting a tailored trading strategy that aligns with their unique personality, risk tolerance, and financial objectives.</p>
             </div>

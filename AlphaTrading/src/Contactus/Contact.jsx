@@ -4,12 +4,15 @@ import { Footer } from '../Footer/Footer'
 import { MdOutlineMail } from "react-icons/md";
 import { MdCallEnd } from "react-icons/md";
 import { IoIosHome } from "react-icons/io";
+
+
+
 export const Contact = () => {
   return (
     <div className='w-full h-max flex flex-col items-center'>
        <Header/>
 
-    <div className='w-full h-[350px] bg-black bg-[url(./src/assets/contact2.jpg)] '></div>
+    <div className='w-full h-[350px] bg-black ContactUs'></div>
 
     <div className='md:w-[80%] md:h-[400px] ms:w-[80%] ms:h-[1000px] flex flex-col justify-between items-center md:flex-row'>
         <div className='w-[250px] h-[80%] shadow-lg rounded-2xl flex flex-col items-center justify-center '>

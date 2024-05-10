@@ -4,7 +4,7 @@ import { Offers } from '../Offers/Offers';
 import { History } from '../History.jsx/History';
 import { Join } from '../Joinus/Join';
 import { Footer } from '../Footer/Footer';
-
+import Whatsapp from '../assets/whatsapp.png'
 
 import Header from './Header';
 import PriceTrade from '../Price/PriceTrade';
@@ -39,7 +39,7 @@ const handlePriceScroll = () =>{
   }, [scrolled]);
 
   return (
-    <div className='w-full bg-[url("./src/assets/Image5.AVIF")] bg-cover relative '>
+    <div className='w-full bg-cover relative HeroImage'>
       <div className={`fixed w-full z-10 transition-all duration-300  top-0 ${scrolled ? 'bg-black' : 'bg-black'}`}>
         <Header/>
       </div>
@@ -51,7 +51,7 @@ const handlePriceScroll = () =>{
         <PriceTrade ref={startNowPriceRef} />
         <Footer />
         <div className=' fixed top-[91%] right-7 bg-fixed shadow-lg z-0'>
-          <a href='https://wa.me/2349046270535'> <img src='./src/assets/whatsapp.png'/> </a>
+          <a href='https://wa.me/2349046270535'> <img src={Whatsapp}/> </a>
         </div>
       </div>
     </div>

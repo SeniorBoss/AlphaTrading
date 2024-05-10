@@ -4,6 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import { FaCaretDown } from "react-icons/fa";
 import { Footer } from '../Footer/Footer';
 import Header from '../HomePage/Header';
+import Logo3 from '../assets/Logo3.png'
 export const AboutUs = () => {
 
     const[oneFaq, setOneFaq] =useState(false)
@@ -59,7 +60,7 @@ export const AboutUs = () => {
        <div className='md:w-full md:h-[500px] ms:w-full ms:h-[800px] bg-white flex justify-center items-center'>
             <div className='md:w-[80%] md:h-[70%] ms:w-[90%] ms:h-[90%] flex flex-col md:flex-row justify-between items-center'>
                 <div className='md:w-[40%] md:h-[90%] ms:w-[100%] ms:h-[70%] bg-black rounded-2xl'>
-                <img src="./src/assets/Logo3.png" alt="Description" className="w-full h-full shadow-lg object-contain" />
+                <img src={Logo3} alt="Description" className="w-full h-full shadow-lg object-contain" />
                 </div>
 
                 <div className='md:w-[55%] md:h-[90%] ms:w-[100%] ms:h-[90%] flex flex-col gap-2'>

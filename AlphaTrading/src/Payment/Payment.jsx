@@ -9,8 +9,8 @@ import { useNavigate } from "react-router-dom";
 import { ToastContainer, toast } from 'react-toastify';
 import "react-toastify/dist/ReactToastify.css";
 import { BeatLoader } from 'react-spinners';
-
-
+import CODE from '../assets/CODE.png'
+import Whatsapp from '../assets/whatsapp.png'
 
 export const Payment = () => {
   const [transaction, setTransaction] = useState(false);
@@ -467,7 +467,7 @@ const handleRegistration = async (e) =>{
                 >
                   <p>TRC20</p>
                   <p>TZ4ffWuGVyJvABZ8zNGchp7g4SAAzt52bb</p>
-                  <img src="./src/assets/CODE.png" />
+                  <img src={CODE} />
           
                 </div>
               </div>
@@ -479,7 +479,7 @@ const handleRegistration = async (e) =>{
       </form>
 
       <div className=' fixed top-[91%] right-7 bg-fixed shadow-lg z-0'>
-          <a href='https://wa.me/2349046270535'> <img src='./src/assets/whatsapp.png'/> </a>
+          <a href='https://wa.me/2349046270535'> <img src={Whatsapp}/> </a>
         </div>
     </div>
   );
