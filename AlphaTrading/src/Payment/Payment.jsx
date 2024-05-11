@@ -151,11 +151,22 @@ const handleRegistration = async (e) =>{
     if (proofOfPayment) {
       formData.append('proofOfPayment', proofOfPayment);
     }
+
+    const token = localStorage.getItem('accessToken');
+
+    axios.defaults.headers.common['Authorization'] = `Bearer ${token}`;
+
+
     const response = await axios.post('https://alpha-trading.onrender.com/api/sign-up',formData)
   
     console.log( "Registration successful:", response.data);
 
+    localStorage.setItem('user', JSON.stringify(response.data));
+
+
     toast.success("Registration successful!")
+
+    
 
 
     setFirstName('');
