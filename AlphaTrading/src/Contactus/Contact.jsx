@@ -32,7 +32,7 @@ export const Contact = () => {
         <div className='w-[250px] h-[80%] shadow-lg rounded-2xl flex flex-col items-center justify-center '>
         <IoIosHome className=' text-4xl'/>
         <h1 className='font-bold md:text-xl'>Address</h1>
-        <p className=' text-sm w-[90%] h-[40%] flex items-center flex-col justify-center text-gray-600  text-center'> While we primarily operate online, we're committed to providing a seamless experience for our customers.you can reach us at the following address:</p>
+        <p className=' text-sm w-[90%] h-[40%] flex items-center flex-col justify-center text-gray-600  text-center'> While we primarily operate online, we're committed to providing a seamless experience for our customers.you can reach to us with the following address:</p>
         <span className='text-blue-700 text-sm w-[90%] flex items-center justify-center'>153 kirikiri road, olodi Apapa, lagos state</span> 
         </div>
     </div>

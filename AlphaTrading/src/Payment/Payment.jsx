@@ -367,8 +367,8 @@ const handleRegistration = async (e) =>{
                 </div>
               </div>
 
-              <h1 className="w-full h-[80px] flex items-center">
-                Make sure you are using your collect details{" "}
+              <h1 className="w-full h-[80px] flex items-center text-red-500 font-bold">
+                Make sure you are using your correct details{" "}
               </h1>
             </div>
           </div>

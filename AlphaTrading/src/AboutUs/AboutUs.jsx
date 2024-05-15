@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import { FaCaretDown } from "react-icons/fa";
 import { Footer } from '../Footer/Footer';
 import Header from '../HomePage/Header';
-import Logo3 from '../assets/Logo3.png'
+import Logo3b from '../assets/Logo3b.png'
 export const AboutUs = () => {
 
     const[oneFaq, setOneFaq] =useState(false)
@@ -58,15 +58,15 @@ export const AboutUs = () => {
        <Header/>
 
        <div className='md:w-full md:h-[500px] ms:w-full ms:h-[800px] bg-white flex justify-center items-center'>
-            <div className='md:w-[80%] md:h-[70%] ms:w-[90%] ms:h-[90%] flex flex-col md:flex-row justify-between items-center'>
-                <div className='md:w-[40%] md:h-[90%] ms:w-[100%] ms:h-[70%] bg-black rounded-2xl'>
-                <img src={Logo3} alt="Description" className="w-full h-full shadow-lg object-contain" />
+            <div className='md:w-[80%] md:h-[70%] ms:w-[90%] ms:h-[90%] flex flex-col md:flex-row justify-between items-center ms:gap-8'>
+                <div className='md:w-[400px] md:h-[400px] ms:w-[300px] ms:h-[400px] bg-white shadow-lg rounded-l-full rounded-br-full flex justify-center'>
+                <img src={Logo3b} alt="Description" className="w-[300px] h-full  object-co bg-center"  />
                 </div>
 
                 <div className='md:w-[55%] md:h-[90%] ms:w-[100%] ms:h-[90%] flex flex-col gap-2'>
                     <h1 className='md:font-bold md:text-3xl ms:font-bold ms:text-2xl'>Hello! I'm Frank</h1>
                     <h1>CEO Alphatrading Academy</h1>
-                    <p className='text-gray-400 text-sm'>"I am Frank, I have been actively involved in the world of cryptocurrency and forex trading since early 2018. Over the years, I have gained valuable experience and insights into the dynamic and ever-evolving markets. As a passionate and dedicated trader, I continuously strive to expand my knowledge and refine my trading strategies to navigate the complexities of the financial markets successfully. My journey in trading has been filled with challenges and learning opportunities, but it has also been incredibly rewarding. I am excited about the future of trading and the endless possibilities it holds for those who dare to venture into this fascinating world."</p>
+                    <p className='text-gray-400 text-sm'>"I am Frank, I have been actively involved in the world of cryptocurrency and forex trading since early 2020. Over the years, I have gained valuable experience and insights into the dynamic and ever-evolving markets. As a passionate and dedicated trader, I continuously strive to expand my knowledge and refine my trading strategies to navigate the complexities of the financial markets successfully. My journey in trading has been filled with challenges and learning opportunities, but it has also been incredibly rewarding. I am excited about the future of trading and the endless possibilities it holds for those who dare to venture into this fascinating world."</p>
                 </div>
             </div>
        </div>

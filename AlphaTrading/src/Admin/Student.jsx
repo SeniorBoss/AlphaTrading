@@ -6,6 +6,11 @@ import { TotalCalculate } from './TotalCalculate';
 import { FaRegArrowAltCircleDown } from "react-icons/fa";
 import { SearchBar } from './SearchBar';
 export const StudentBar = () => {
+
+
+
+
+
   return (
     <div className='w-[90%] h-[100vh] flex flex-col justify-between overflow-y-auto scrollbar-hidden transition-all duration-1000'  style={{ overflowY: "auto", scrollbarWidth: "none", msOverflowStyle: "none" }}>
         <div className='h-full'>

@@ -15,7 +15,7 @@ import Logo3 from '../assets/Logo3.png'
         <div  className=' h-full w-[90%] flex justify-between ms:w-full sm-w-ful lg:w-[90%]' >
 
         <div className='w-40 h-full object-contain pt-2 pr-8 cursor-pointer'>
-        <img src={Logo3} alt="Description" className="w-full h-full shadow-lg object-contain" onClick={() =>nav('/adminLoginLink')}/>
+        <img src={Logo3} alt="Description" className="w-full h-full shadow-lg object-contain" onClick={() =>nav('/')}/>
         </div>
 
         <div className='h-full md:w-[400px] md:h-full ms:absolute ms:bg-white md:bg-transparent md:static ms:top-20 ms:right-5 ms:h-[20%] ms:w-[40%] ms:hidden md:block'>

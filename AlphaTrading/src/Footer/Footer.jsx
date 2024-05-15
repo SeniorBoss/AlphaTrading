@@ -30,10 +30,18 @@ export const Footer = () => {
                 <h1 className='text-white text-normal font-bold'>Contact us</h1>
                 </div>
                 <div className='md:w-full md:h-[10%] ms:w-[] ms:h-[10%]'>
-                    <div className='w-full flex gap-5'>
-                    <FaInstagram className='text-white text-2xl'/>
-                    <LuFacebook  className='text-white text-2xl'/>
+                    <div className='w-full flex gap-4  '>
+                        <a href='https://www.instagram.com/invites/contact/?i=10dmoe60eu87d&utm_content=3nqpql0'>
+                    <FaInstagram className='text-white text-2xl md:w-[100%]'/>
+                        </a>
+
+                    <a href='https://www.facebook.com/profile.php?id=61559352904071&mibextid=ZbWKwL'>
+                    <LuFacebook  className='text-white text-2xl ms:w-[100%] md:w-[100%]'/>
+                    </a>
+                    
+                    <a href='https://x.com/AlphaTradingAc?t=fyxnT-zLNH0LFBCPUmODRA&s=08' className=' w-[10%]'>
                     <FaXTwitter className='text-white text-2xl'/>
+                    </a>
                     
                     </div>
                 </div>
