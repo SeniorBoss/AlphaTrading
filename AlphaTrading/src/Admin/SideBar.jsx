@@ -6,6 +6,7 @@ import { IoIosNotifications } from "react-icons/io";
 import { MdLogout } from "react-icons/md";
 import { useNavigate } from 'react-router-dom';
 import { MdMenuBook } from "react-icons/md";
+import AlphaTrading from "../assets/AlphaTrading.png"
 
 export const SideBar = ({handleDash, handleStudent, handleRecord, handlePayment, handleNotification, student, studentComp, recordComp, paymentComp, notificationComp}) => {
 
@@ -20,7 +21,7 @@ export const SideBar = ({handleDash, handleStudent, handleRecord, handlePayment,
     <div className='w-[250px] h-[100%] bg-white rounded-2xl border-2 border-gray-300 flex justify-center'>
       <div className='w-[80%] h-max flex items-center justify-center flex-col'>
         <div className='w-full h-[100px] border-b-2'>
-          <img src="./src/assets/AlphaTrading.png" alt="Description" className="w-full h-[90%]  object-contain"  onClick={() =>nav('/')}/>
+          <img src={AlphaTrading} alt="Description" className="w-full h-[90%]  object-contain"  onClick={() =>nav('/')}/>
         </div>
 
         <div className='w-full h-max flex flex-col gap-4 pt-10 justify-center items-center'>

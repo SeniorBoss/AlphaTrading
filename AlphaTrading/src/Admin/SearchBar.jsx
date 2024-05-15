@@ -2,6 +2,8 @@ import React from 'react'
 import { CiSearch } from "react-icons/ci";
 import { CiLight } from "react-icons/ci";
 import { IoIosNotifications } from "react-icons/io";
+import User from "../assets/User.png"
+
 export const SearchBar = () => {
   return (
     <div className='w-full h-[60px] bg-white rounded-2xl flex justify-center items-center '>
@@ -21,7 +23,7 @@ export const SearchBar = () => {
         </div>
 
             <div className='w-[50px] h-[50px] bg-black rounded-3xl bg-[url("./src/assets/User.png")]'>
-            <img src="./src/assets/User.png" alt="Description" className="w-full h-full  object-contain"/>
+            <img src={User} alt="Description" className="w-full h-full  object-contain"/>
             </div>
         </div>
     </div>
