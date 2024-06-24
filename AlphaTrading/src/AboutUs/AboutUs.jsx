@@ -54,6 +54,7 @@ export const AboutUs = () => {
         setSevenFaq(false)
     }
   return (
+    
     <div className='w-full h-max bg-black'>
        <Header/>
 

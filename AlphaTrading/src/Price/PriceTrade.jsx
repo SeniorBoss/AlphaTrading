@@ -22,7 +22,7 @@ import { useNavigate } from 'react-router-dom';
           <h1 className='font-bold text-xl text-white'>VIRTUAL ACADEMY</h1>
 
           <div className='w-[50%] flex flex-col items-center'>
-            <div className='font-bold text-6xl text-white  flex'>$5</div>
+            <div className='font-bold text-6xl text-white  flex'>$7</div>
             <p className=' text-white text-sm'>For registration</p>
           </div>
 
