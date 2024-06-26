@@ -399,7 +399,7 @@ const handleRegistration = async (e) =>{
                 </p>
                 <p className="flex items-center justify-center">
                   Total= <TbCurrencyNaira />
-                 10000
+                 10,000
                 </p>
               </div>
             </div>
@@ -412,7 +412,7 @@ const handleRegistration = async (e) =>{
                 </p>
                 <p className="flex items-center justify-center">
                   Total= <TbCurrencyNaira />
-                  65,000
+                  70,000
                 </p>
               </div>
             </div>

@@ -109,7 +109,7 @@ export const History = () => {
 
                      <div className='w-full h-[12%] flex items-center gap-5'>
                      <GiCheckMark className='text-green-500 text-3xl' />
-                     <p className=' text-sm'>ICT strategy</p>
+                     <p className=' text-sm'>SMC strategy</p>
                      </div>
                      
                     </div>
